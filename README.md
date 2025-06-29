@@ -17,7 +17,9 @@ git clone https://github.com/seu-usuario/video-downloader.git
 cd video-downloader
 
 python3 -m venv venv
-source venv/bin/activate
+
+source venv/bin/activate - Para Linux
+venv\Scripts\activate - Para Windows
 
 pip install -r requirements.txt
 
